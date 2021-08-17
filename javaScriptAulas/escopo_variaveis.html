@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+        <script>
+         //3 escopo: global, função e de bloco
+         
+         //global 
+         var serie = "Qualquer uma"
+
+         //escopo de bloco
+         if (true) {
+          var filme = 'Ação'
+          document.write(serie)
+         }
+
+         document.write('<br/>')
+
+         document.write(filme)
+        
+         document.write('<br/>')
+       
+        //ecopo função
+         function x() {
+           // logica...
+           var novela = "nacional"
+           document.write(serie)
+           document.write('<br/>')
+           document.write(filme)
+           //document.write('<br/>')
+          // document.write(novela)
+
+         }
+
+         x()
+         document.write('<br/>')
+         document.write(novela)
+       
+        </script>
+    
+  </head>
+
+  <body>
+  </body>
+</html

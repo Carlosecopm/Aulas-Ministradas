@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Java Script</title>
+
+		<script>
+			//&& se todas as condições forem verdadeiras
+			//|| se apenas uma das condições forem verdadeiras 
+			//!  inverte o resultado(negação)
+			
+			//if (2 == 2 && 3 >= 1  || 'a' == 'b') {
+			/*	if (!(5 >= 2)) {
+				document.write("verdadiero")
+			} else {
+				document.write("falso")
+			}
+			
+ */			var nota = prompt("Digite a nota do Aluno: ")
+			var faltas = prompt("Digite a quantidade de faltas: ")
+			
+			//var media = 7
+			var limiteFaltas = 20
+			
+			
+			if (nota <3 && faltas <= limiteFaltas){ 
+				document.write("Reprovado")
+			}
+			else if(nota >= 3  && nota <= 7 && faltas <= limiteFaltas){
+				document.write("Final")
+			}
+			else{
+				document.write("Aprovado")
+			}
+			
+
+			//operador ternário
+			//var resultado = nota >=7 && faltas <= limiteFaltas ? <verdadiero> : <falso>
+			//var resultado = (nota >=7 && faltas <= limiteFaltas) ? "Aprovado" : "Reprovado"
+			//document.write(resultado)
+
+		</script>
+		
+	</head>
+
+	<body>
+
+	</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Java Script</title>
+
+		<script>
+		//propriedade length = tamanho da string
+		document.write('Alunos Matutino'.length)
+		document.write('<br/>')
+		
+		//charAt: metodo que retorna o caracter de determinada posição
+		document.write('Alunos Matutino'.charAt(7))
+			
+		//indexOf: retorna a posição do caracter na primaira ocorrência
+		var nome = ' Alunos Matutino '
+		document.write('<br/>')
+		document.write(nome.indexOf('u'))
+		
+		//replace: substituir trechos dentro de uma String 
+		document.write('<br/>')
+		document.write(nome.replace('Matutino', 'vespertino'))
+
+		//substr: permite recuperar uma parte da String a partir daquela posição  
+		document.write('<br/>')
+		document.write(nome.substr(8, 3))
+
+		//toLowerCase: transforma todos os caracteres em minúsculos  
+		document.write('<br/>')
+		document.write(nome.toLowerCase())
+
+		///toUpperCase: transforma todos os caracteres em maiúsculos  
+		document.write('<br/>')
+		document.write(nome.toUpperCase())
+
+		//trim: remove os espaços entre as strings  
+		document.write('<br/>')
+		document.write('-'+ nome + '-')
+		document.write('<br/>')
+		document.write('-'+ nome.trim() + '-')
+				
+
+		</script>
+		
+	</head>
+
+	<body>
+
+	</body>
+</html>

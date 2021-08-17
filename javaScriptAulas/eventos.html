@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Java Script</title>
+
+		<script>
+			
+			function acao() {
+				// body...
+				alert("Elemento clicado")
+			}
+
+			function acao2() {
+				// body...
+				alert("Mouse deixou a região do elemento")
+			}
+
+		</script>
+	</head>
+	
+	<body>
+			<!-- Mouse
+				onclick: um clique
+				ondblclick: duplo clique
+				onmouseup: mouse em cima
+				onmouseover: mouse sobre
+				onmouseout: mouse fora
+				
+				<div onclick="acao()" onmouseout="acao2()" style="background: #ccc; height: 150px; width: 150px"></div>
+			-->
+		<div onclick="acao()" style="background: #ccc; height: 150px; width: 150px"></div>
+		
+			
+		<!-- Teclado
+			onkeydown: aciona a função depois aparece a tecla
+			onkeyup: apresenta a tecla depois executa a função
+			onkeypress: intermediário
+
+			<input onkeypress="acao()" type="text">
+		-->
+
+		<!-- Janela
+			onresize: acionado quando a página ou frame é redimensinada
+			onscroll: atribuir o elemento a barra de rolagem
+			
+		<body  onscroll="console.log('Evento disparado')" >
+			<div style="height: 3000px; width: 125px; background: #ccc"> </div>
+		</body>
+		-->
+		<!--
+		<input onfocus="console.log('recebeu o foco')" onblur="console.log('perdeu o foco')" type="text">
+		<select onchange="console.log('Estado modificado')" >
+			<option>--Selecione--</option>
+			<option value="1">Primeira opção</option>
+			<option value="2">Segunda opção</option>
+		</select>
+		-->
+	</body>
+</html>
